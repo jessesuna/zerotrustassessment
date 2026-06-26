@@ -28,7 +28,7 @@ function Export-Database {
 		[PSFDirectorySingle]$ExportPath,
 
 		# The Zero Trust pillar to assess. Defaults to All.
-		[ValidateSet('All', 'Identity', 'Devices', 'Network', 'Data', 'Infrastructure', 'SecOps', 'AI')]
+		[ValidateSet('All', 'Identity', 'Devices', 'Network', 'Data', 'Infrastructure', 'SecOps', 'AI', 'DevSecOps')]
 		[string]
 		$Pillar = 'All',
 

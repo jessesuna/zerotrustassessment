@@ -46,7 +46,7 @@ function Export-ZtTenantData {
 		[int]
 		$MaximumSignInLogQueryTime,
 
-		[ValidateSet('All', 'Identity', 'Devices', 'Network', 'Data', 'Infrastructure', 'SecOps', 'AI')]
+		[ValidateSet('All', 'Identity', 'Devices', 'Network', 'Data', 'Infrastructure', 'SecOps', 'AI', 'DevSecOps')]
 		[string]
 		$Pillar = 'All',
 

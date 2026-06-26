@@ -97,7 +97,7 @@ function Add-ZtTestResultDetail {
 		[string[]] $NotConnectedService,
 
 		# Optional. The Zero Trust pillar for the test. Used by dynamic tests (e.g. MDC) where no [ZtTest()] attribute exists.
-		[ValidateSet('Identity', 'Devices', 'Network', 'Data', 'Infrastructure', 'SecOps', 'AI')]
+		[ValidateSet('Identity', 'Devices', 'Network', 'Data', 'Infrastructure', 'SecOps', 'AI', 'DevSecOps')]
 		[string] $Pillar,
 
 		# Optional. The category for the test. Used by dynamic tests (e.g. MDC) where each row may have a different category.
