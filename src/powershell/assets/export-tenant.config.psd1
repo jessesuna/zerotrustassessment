@@ -75,10 +75,10 @@ Note: Avoid using the same names as used for the "General Parameters" section of
 	Name = 'Application'
 	Uri = 'beta/applications'
 	QueryString = '$top=999'
-	RelatedPropertyNames = @()
+	RelatedPropertyNames = @('federatedIdentityCredentials') # Sub-API endpoint collected per app for Workload Identity Federation (DevSecOps DS_030)
 	Type = 'Default' # PrivilegedGroup
 
-	Pillar = @('Identity', 'Network', 'AI')
+	Pillar = @('Identity', 'Network', 'AI', 'DevSecOps')
 	# Environment = $null # 'Global'
 	# IncludePlan = @('Free') # P2, Governance
 	# ExcludePlan = @('Free') # Free
